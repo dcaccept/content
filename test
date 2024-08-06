@@ -1,0 +1,47 @@
+Directory Structure and Naming Conventions
+Welcome to the project repository! To ensure consistency and efficiency, please follow these guidelines for naming directories and files. This will help us maintain a well-organized and easily navigable structure.
+
+Directory Structure
+Root Directory (project_name)
+
+All project-related documents and resources should be placed in the following main directories. Do not create additional top-level folders.
+Main Directories
+
+01_kbs/: Contains all knowledge-related documents.
+02_onboarding_docs/: Includes onboarding and training materials.
+03_access/: Manages access-related information and procedures.
+04_showcase_items/: Stores important slides and showcase items.
+05_dashboards/: Holds project dashboards and performance metrics.
+06_data_files/: Central repository for data sets and backups.
+Naming Conventions
+Use Lower Case with Underscores
+
+Folder and file names should be in lower case, separated by underscores (e.g., technical_documentation, new_hire_welcome_kit).
+Avoid Special Characters
+
+Use only letters, numbers, and underscores. Avoid spaces, hyphens, or special characters.
+Be Descriptive and Specific
+
+Use clear and descriptive names that reflect the content or purpose of the folder/file. Avoid generic names.
+Do Not Create New Top-Level Folders
+
+Stick to the provided main directories. Creating additional top-level folders can lead to confusion and disorganization.
+Examples
+Correct Naming
+01_kbs/general_information/
+02_onboarding_docs/role_specific_training/
+03_access/access_requests/
+04_showcase_items/important_slides/
+05_dashboards/project_dashboards/
+06_data_files/data_sets/
+Incorrect Naming
+01_KBS/ (Use underscores, not camel case or uppercase)
+OnboardingDocs/ (Do not mix case)
+Access Info/ (Avoid spaces and special characters)
+Showcase/ (Be specific and avoid generic names)
+Dashboards/Reports/ (Do not create subfolders at the top level)
+DataSets/BackupFiles/ (Stick to the defined structure)
+Additional Tips
+Consistency is Key: Consistent naming helps everyone find and manage files efficiently.
+Ask for Help: If you’re unsure about the naming or structure, consult with a project lead or team member.
+Thank you for following these guidelines. Your cooperation helps keep our project organized and accessible!
