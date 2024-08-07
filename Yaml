@@ -1,0 +1,15 @@
+   - name: Create VLAN data structure
+      set_fact:
+        vlan_data: >-
+          {%- set data = [] -%}
+          {%- for key, value in ios_facts.interfaces.items() if key.startswith('Vlan') -%}
+            {%- set vlan = {
+              'Vlan': key,
+              'Vlan IP': value.ipv4.address | default('N/A'),
+              'VLAN Description': value.description | default('N/A'),
+              'VLAN Subnet': value.ipv4.netmask | default('N/A'),
+              'VLAN Helper IP list': value.ipv4.dhcp_relay | default([]) | join(', ')
+            } -%}
+            {%- do data.append(vlan) -%}
+          {%- endfor -%}
+          {{ data }}
