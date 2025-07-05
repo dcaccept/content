@@ -120,10 +120,5 @@ How should your API respond to unexpected errors?
 - Unique error codes for tracking
 - Log error details internally
 
----
 
-## 🔎 Bonus: Regex & extraction task
-
-**Question:**  
-Given this sample text from a network device:
 
