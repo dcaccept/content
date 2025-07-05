@@ -22,9 +22,11 @@ scores = list(map(int, scores_input.strip().split()))
 
 print("Names:", names)
 print("Scores:", scores)
-Output
+
 Names: ['Alice', 'Bob', 'Charlie', 'David']
 Scores: [65, 40, 75, 49]
+
+Student Pairs: [('Alice', 65), ('Bob', 40), ('Charlie', 75), ('David', 49)]
 ```
 
 ---
