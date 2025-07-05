@@ -30,8 +30,9 @@ def example():
     pass
 ---
 
-3️⃣ Request and response objects
-Question:
+## 3️⃣ Request and response objects
+
+**Question:** 
 How do you access JSON data sent in a POST request?
 
 Expected:
