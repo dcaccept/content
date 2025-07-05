@@ -111,6 +111,8 @@ David: {'score': 49, 'passed': False}
 # Extract names of students who passed
 passed_students = {name for name, info in student_dict.items() if info["passed"]}
 print("Passed Students:", passed_students)
+Passed Students: {'Charlie', 'Alice'}
+
 ```
 
 ---
@@ -124,6 +126,12 @@ print("Passed Students:", passed_students)
 print("All Students:")
 for i, name in enumerate(names, start=1):
     print(f"{i}. {name}")
+
+All Students:
+1. Alice
+2. Bob
+3. Charlie
+4. David
 ```
 
 ---
