@@ -22,6 +22,9 @@ scores = list(map(int, scores_input.strip().split()))
 
 print("Names:", names)
 print("Scores:", scores)
+Output
+Names: ['Alice', 'Bob', 'Charlie', 'David']
+Scores: [65, 40, 75, 49]
 ```
 
 ---
