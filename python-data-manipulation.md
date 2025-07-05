@@ -57,6 +57,9 @@ scores.append(90)
 # Recreate the updated pairings
 student_pairs = list(zip(names, scores))
 print("Updated Student Pairs:", student_pairs)
+
+Updated Student Pairs: [('Alice', 65), ('Bob', 40), ('Charlie', 75), ('David', 49), ('Eve', 90)]
+
 ```
 
 ---
