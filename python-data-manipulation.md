@@ -26,7 +26,6 @@ print("Scores:", scores)
 Names: ['Alice', 'Bob', 'Charlie', 'David']
 Scores: [65, 40, 75, 49]
 
-Student Pairs: [('Alice', 65), ('Bob', 40), ('Charlie', 75), ('David', 49)]
 ```
 
 ---
@@ -39,6 +38,9 @@ Student Pairs: [('Alice', 65), ('Bob', 40), ('Charlie', 75), ('David', 49)]
 # Pair names and scores
 student_pairs = list(zip(names, scores))
 print("Student Pairs:", student_pairs)
+
+Student Pairs: [('Alice', 65), ('Bob', 40), ('Charlie', 75), ('David', 49)]
+
 ```
 
 ---
