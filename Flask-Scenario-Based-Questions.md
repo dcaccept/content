@@ -28,6 +28,7 @@ How do you define a route in Flask that accepts both GET and POST?
 @app.route('/example', methods=['GET', 'POST'])
 def example():
     pass
+
 ---
 
 ## 3️⃣ Request and response objects
@@ -35,7 +36,7 @@ def example():
 **Question:** 
 How do you access JSON data sent in a POST request?
 
-Expected:
+**Expected:**
 
 python
 Copy
