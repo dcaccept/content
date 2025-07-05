@@ -38,13 +38,10 @@ How do you access JSON data sent in a POST request?
 
 **Expected:**
 
-python
-
-
 from flask import request
 data = request.get_json()
 
----
+-----
 
 ## 4️⃣ Error handling
 Question:
