@@ -72,6 +72,9 @@ Updated Student Pairs: [('Alice', 65), ('Bob', 40), ('Charlie', 75), ('David', 4
 # Determine pass/fail for each score
 passed_status = list(map(lambda score: score >= 50, scores))
 print("Passed Status:", passed_status)
+
+Passed Status: [True, False, True, False]
+
 ```
 
 ---
