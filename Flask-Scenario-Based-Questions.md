@@ -39,8 +39,8 @@ How do you access JSON data sent in a POST request?
 **Expected:**
 
 python
-Copy
-Edit
+
+
 from flask import request
 data = request.get_json()
 
@@ -55,8 +55,8 @@ Expected:
 Using error handler decorators, e.g.:
 
 python
-Copy
-Edit
+
+
 @app.errorhandler(404)
 def not_found(e):
     return {"message": "Not found"}, 404
@@ -96,8 +96,8 @@ How can you create a custom decorator in Flask to check if a user is authenticat
 Expected:
 
 python
-Copy
-Edit
+
+
 from functools import wraps
 from flask import request, abort
 
@@ -124,8 +124,8 @@ Write a Flask endpoint /sum that accepts two numbers (a and b) as query paramete
 Expected:
 
 python
-Copy
-Edit
+
+
 @app.route('/sum', methods=['GET'])
 def sum_numbers():
     a = int(request.args.get('a', 0))
