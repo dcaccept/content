@@ -93,6 +93,12 @@ student_dict = {
 print("Student Dictionary:")
 for student, info in student_dict.items():
     print(f"{student}: {info}")
+
+Student Dictionary:
+Alice: {'score': 65, 'passed': True}
+Bob: {'score': 40, 'passed': False}
+Charlie: {'score': 75, 'passed': True}
+David: {'score': 49, 'passed': False}
 ```
 
 ---
