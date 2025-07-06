@@ -3,12 +3,15 @@
 
 This section evaluates your understanding and ability to work with Python's built-in `json` module. Complete each task by writing Python code. Each task includes a question, input, and expected output to help guide your solution.
 
-#  ✅ Common functions in Python json module
-Function	Description
-json.load()	Read JSON data from a file-like object and convert it to a Python object.
-json.loads()	Parse JSON data from a string and convert it to a Python object.
-json.dump()	Serialize a Python object and write it as JSON to a file-like object.
-json.dumps()	Serialize a Python object and return it as a JSON string.
+# ✅ Common functions in Python `json` module
+
+| Function      | Description                                                   |
+|----------------|---------------------------------------------------------------|
+| `json.load()`  | Read JSON data from a **file-like object** and convert it to a Python object. |
+| `json.loads()` | Parse JSON data from a **string** and convert it to a Python object.         |
+| `json.dump()`  | Serialize a Python object and write it as JSON to a **file-like object**.   |
+| `json.dumps()` | Serialize a Python object and return it as a JSON **string**.               |
+
 ---
 
 ## 🔹 Task 1: Parse a JSON String
