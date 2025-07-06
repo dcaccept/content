@@ -24,7 +24,7 @@ response = requests.get("https://jsonplaceholder.typicode.com/posts/1")
 print("Status Code:", response.status_code)
 print("Response Text:", response.text)
 
-
+```
 ---
 
 ## 🔹 Task 2: Sending a POST Request
