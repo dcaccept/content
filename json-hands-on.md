@@ -18,7 +18,6 @@ json_string = '{"name": "Alice", "age": 30, "skills": ["Python", "SQL"]}'
 ```python
 import json
 
-json_string = '{"name": "Alice", "age": 30, "skills": ["Python", "SQL"]}'
 data = json.loads(json_string)
 print(data)
 ```
@@ -47,11 +46,6 @@ data = {
 ```python
 import json
 
-data = {
-    "product": "Laptop",
-    "price": 850.75,
-    "features": ["SSD", "8GB RAM", "i5"]
-}
 json_str = json.dumps(data)
 print(json_str)
 
@@ -71,24 +65,18 @@ Use the appropriate json function to pretty print the given dictionary with an i
 
 **Input:**
 ```python
-import json
-
 data = {
     "product": "Laptop",
     "price": 850.75,
     "features": ["SSD", "8GB RAM", "i5"]
 }
-pretty_json = json.dumps(data, indent=4)
-print(pretty_json)
 
 ```
 **Code:**
 ```python
 import json
-
-json_string = '{"name": "Alice", "age": 30, "skills": ["Python", "SQL"]}'
-data = json.loads(json_string)
-print(data)
+pretty_json = json.dumps(data, indent=4)
+print(pretty_json)
 ```
 
 **Expected Output:**
@@ -102,6 +90,7 @@ print(data)
         "i5"
     ]
 }
+
 ```
 
 ---
@@ -120,6 +109,7 @@ Assume a file named `student.json` contains valid JSON data. Read the file and c
         "science": 85
     }
 }
+
 ```
 
 **Code:**
@@ -130,6 +120,7 @@ with open("student.json", "r") as file:
     data = json.load(file)
 
 print(data)
+
 
 ```
 
@@ -158,6 +149,7 @@ data = {"framework": "Django", "version": 4.2}
 with open("framework.json", "w") as file:
     json.dump(data, file, indent=2)
 
+
 ```
 
 **Expected File Content:**
@@ -182,8 +174,6 @@ bad_json = '{"name": "John", "age": 30,'
 **Code:**
 ```python
 import json
-
-bad_json = '{"name": "John", "age": 30,'
 
 try:
     data = json.loads(bad_json)
